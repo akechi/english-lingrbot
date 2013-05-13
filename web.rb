@@ -6,7 +6,6 @@ require "rexml/document"
 require 'uri'
 require 'cgi'
 
-#set :bind, 'tonic-water.com'
 set :port, 11611
 
 get '/' do
