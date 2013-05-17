@@ -1,12 +1,8 @@
 # -*- coding: utf-8 -*-
-require 'json'
-require 'sinatra'
-require 'open-uri'
-require "rexml/document"
-require 'uri'
-require 'cgi'
-
-set :port, 11611
+require 'bundler'
+Dir.chdir File.dirname(__FILE__)
+Bundler.require
+set :environment, :production
 
 get '/' do
   'hello'
