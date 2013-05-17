@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 require 'bundler'
+require 'open-uri'
 Dir.chdir File.dirname(__FILE__)
 Bundler.require
 set :environment, :production
